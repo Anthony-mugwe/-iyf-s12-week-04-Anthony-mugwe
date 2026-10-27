@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student grade tracker built with JavaScript arrays and objects.">
+  <title>Student Grade Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="hero"><div class="container"><p class="eyebrow">WEEK 4 · JAVASCRIPT FUNDAMENTALS</p><h1>Student Grade Tracker</h1><p>Add student scores, search, filter, sort, and calculate the class average.</p></div></header>
+  <main class="container">
+    <section class="panel">
+      <h2>Add a student</h2>
+      <form id="student-form">
+        <div class="form-grid">
+          <div><label for="student-name">Student name</label><input id="student-name" name="studentName" maxlength="80" required></div>
+          <div><label for="student-score">Score (0–100)</label><input id="student-score" name="score" type="number" min="0" max="100" step="1" required></div>
+        </div>
+        <button type="submit">Add student</button>
+        <p id="form-message" role="status"></p>
+      </form>
+    </section>
+    <section class="panel">
+      <div class="toolbar">
+        <div><h2>Class results</h2><p id="summary">0 students</p></div>
+        <div class="filters">
+          <label for="search">Search</label><input id="search" type="search" placeholder="Student name">
+          <label for="grade-filter">Grade</label>
+          <select id="grade-filter"><option value="all">All grades</option><option>A</option><option>B</option><option>C</option><option>D</option><option>F</option></select>
+          <label for="sort-by">Sort</label>
+          <select id="sort-by"><option value="name">Name</option><option value="score-high">Highest score</option><option value="score-low">Lowest score</option></select>
+        </div>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>Name</th><th>Score</th><th>Grade</th><th>Action</th></tr></thead><tbody id="student-table"></tbody></table></div>
+      <p id="empty-state">No students yet. Add the first student above.</p>
+      <p class="average" id="average">Class average: —</p>
+    </section>
+  </main>
+  <footer><p>Built with HTML, CSS, and JavaScript.</p></footer>
+</body>
+</html>
