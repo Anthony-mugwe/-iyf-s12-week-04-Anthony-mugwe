@@ -1,7 +1,7 @@
 "use strict";
 
 const students = [
-  { id: 1, name: "Amina", score: 86 },
+  { id: 1, name: "Anthony", score: 86 },
   { id: 2, name: "Brian", score: 74 },
   { id: 3, name: "Chao", score: 62 },
   { id: 4, name: "Diana", score: 48 }
