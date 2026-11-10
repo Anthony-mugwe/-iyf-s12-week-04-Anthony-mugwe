@@ -28,17 +28,17 @@ The calculator should handle division by zero.
 Create a program for managing student grades.
 
 ### Tasks
-- [ ] Create the Week 4 repository.
-- [ ] Create `.gitignore` before the first commit.
-- [ ] Create `index.html`.
-- [ ] Create `main.js`.
-- [ ] Practice variables and operators.
-- [ ] Write functions.
-- [ ] Practice conditions and loops.
-- [ ] Practice arrays and objects.
-- [ ] Work with JSON.
-- [ ] Build the calculator.
-- [ ] Build the grade tracker.
-- [ ] Complete daily challenges.
+- [✓ ] Create the Week 4 repository.
+- [✓ ] Create `.gitignore` before the first commit.
+- [✓ ] Create `index.html`.
+- [✓ ] Create `main.js`.
+- [✓ ] Practice variables and operators.
+- [✓ ] Write functions.
+- [✓ ] Practice conditions and loops.
+- [✓ ] Practice arrays and objects.
+- [✓ ] Work with JSON.
+- [✓ ] Build the calculator.
+- [✓ ] Build the grade tracker.
+- [✓ ] Complete daily challenges.
 
 **Repository:** [Week 4](https://github.com/Anthony-mugwe/-iyf-s12-week-04-Anthony-mugwe.git)
